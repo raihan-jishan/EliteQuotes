@@ -40,7 +40,7 @@ const Page = () => {
   }, [type, author, tag]);
   return (
     <>
-      <div className="relative pt-12 pb-10 px-6 bg-linear-to-r from-emerald-300/60   to-emerald-900/30">
+      <div className="relative pt-12 pb-10 px-6 bg-linear-to-r from-emerald-300/60   to-emerald-900/30 ">
         <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden">
           <div className="absolute top-0 left-10 w-72 h-72 bg-emerald-500/10 blur-[120px] rounded-full" />
         </div>
@@ -68,7 +68,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-linear-to-r from-emerald-300/40 to-emerald-900/30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2  p-2">
+      <div className="bg-linear-to-r from-emerald-300/40 to-emerald-900/30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 max-lg:gap-0  p-2 max-lg:p-4">
         {loading ? (
           Array.from({ length: 4 }).map((_, i) => <QuoteCardSkeleton key={i} />)
         ) : Array.isArray(quotes) && quotes.length > 0 ? (

@@ -76,7 +76,7 @@ export default function MenegeQuotes() {
       {loading ? (
         <p className="text-slate-400">Loading quotes...</p>
       ) : (
-        <div className="grid gap-4 grid-cols-3">
+        <div className="grid gap-4 grid-cols-3 max-lg:grid-cols-1">
           {quotes.map((quote) => (
             <div
               key={quote._id}
