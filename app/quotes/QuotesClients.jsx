@@ -68,7 +68,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="bg-linear-to-r from-emerald-300/40 to-emerald-900/30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 max-lg:gap-0  p-2 max-lg:p-4">
+      <div className="bg-linear-to-r from-emerald-300/40 to-emerald-900/30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 max-lg:gap-2.5  p-2 max-lg:p-4">
         {loading ? (
           Array.from({ length: 4 }).map((_, i) => <QuoteCardSkeleton key={i} />)
         ) : Array.isArray(quotes) && quotes.length > 0 ? (
