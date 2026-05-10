@@ -8,7 +8,7 @@ export default function InspiringMinds() {
     { name: "Elon Musk", imageUrl: "/assets/authors/elonmusk.jpg" },
     { name: "Albert Einstein", imageUrl: "/assets/authors/alberteinstein.jpg" },
     { name: "Mark Zuckerberg", imageUrl: "/assets/authors/markzuckerberg.jpg" },
-    { name: "Warren Buffett", imageUrl: "/assets/authors/warrenbaffet.jpg" },
+    { name: "Warren Buffett", imageUrl: "/assets/authors/warrenbuffett.jpg" },
     { name: "Oprah Winfrey", imageUrl: "/assets/authors/oprahwinfrey.jpg" },
     { name: "Nelson Mandela", imageUrl: "/assets/authors/nelsonmandela.jpg" },
     { name: "Mahatma Gandhi", imageUrl: "/assets/authors/mahatmagandhi.jpg" },
