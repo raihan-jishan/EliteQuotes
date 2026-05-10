@@ -6,7 +6,7 @@ import { QuoteCard } from "@/components/ui/quoteCard";
 import { Heading } from "@/components/ui/heading";
 import { QuotesAPI } from "@/lib/api";
 import { QuoteCardSkeleton, Skeleton } from "@/skeleton";
-const page = () => {
+const Quotes = () => {
   const [quotes, setQuotes] = useState([]);
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(true);
@@ -87,4 +87,4 @@ const page = () => {
     </>
   );
 };
-export default page;
+export default Quotes;
